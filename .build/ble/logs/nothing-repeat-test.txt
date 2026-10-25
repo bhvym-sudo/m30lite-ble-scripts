@@ -1,0 +1,599 @@
+--------- beginning of main
+10-25 16:11:21.857 20979 20979 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s, startId: %d
+10-25 16:11:21.857 20979 20979 I NearbyDiscovery: (REDACTED) FastPair: onAdapterStateChange: state=%s
+10-25 16:11:21.858 20979 21503 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+10-25 16:11:21.860 20979 20979 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s, startId: %d
+10-25 16:11:22.188 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:22.855 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:11:22.856 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:11:24.354 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:24.355 20979 31773 I NearbyDiscovery: (REDACTED) loadFastPairModule: checkFeaturesAreAvailable:%d
+10-25 16:11:24.355 20979 31773 I NearbyDiscovery: loadFastPairModule: FastPair module is downloaded. [CONTEXT service_id=265 ]
+10-25 16:11:25.017 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:25.747 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan7ECD49CE] FastPairCache: device found with model id, %s, %s, %s
+10-25 16:11:25.758 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan7ECD49CE] FastPairCacheManager: Item exists in cache for %s, returning %s
+10-25 16:11:25.768 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryLogger: %s %s
+10-25 16:11:25.775 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan7ECD49CE] FastPairCache: First time advertise data with model id, %s, %s, %s
+10-25 16:11:25.776 20979 31773 I NearbyDiscovery: (REDACTED) InitialPairingDeviceChecker: Start checking device, %s, %s
+10-25 16:11:25.776 20979 31773 I NearbyDiscovery: (REDACTED) InitialPairingDeviceChecker: No matched cached device, %s, %s
+10-25 16:11:25.782 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:25.783 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan7ECD49CE, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:26.291 20979 31773 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq57789C9B, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:26.292 20979 31773 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:26.292 20979 31773 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:11:26.295 20979 31773 I FastPair: ServiceBindHelper: Bind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:11:26.295 20979 31773 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq57789C9B, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:26.297 20979 20979 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s, startId: %d
+10-25 16:11:26.298 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:11:26.298 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:11:26.300 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:11:26.300 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:11:26.415 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:26.416 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanF6934745, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:26.490 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:26.537 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:26.538 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan70A4A646, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:26.921 20979 30065 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq5114C5E7, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:26.922 20979 30065 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:26.923 20979 30065 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq5114C5E7, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:27.164 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:27.324 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:27.337 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:27.338 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanA1B43660, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:27.843 20979 31880 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq10DADE6E, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:27.844 20979 31880 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:27.845 20979 31880 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq10DADE6E, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:28.692 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:28.692 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan292EC21C, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:29.143 20979 21503 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+10-25 16:11:29.144 20979 21503 I NearbyDiscovery: (REDACTED) PureOffloadFastPairScanner: eventType=%s, isInternalReq=%s, isScanning=%s, isScanningAllowed=%s
+10-25 16:11:29.147 20979 21503 I NearbyDiscovery: PureOffloadFastPairScanner: Skipping stop, already stopped scanning [CONTEXT service_id=265 ]
+10-25 16:11:29.148 20979 21503 I NearbyDiscovery: (REDACTED) ApFastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+10-25 16:11:29.150 20979 21503 I NearbyDiscovery: (REDACTED) ApFastPairScanner: eventType=%s, intReq=%s, scanning=%s, scanAllowed=%s, bleEnabled=%s, lockScanRate=%s, startScanningByLowPowerMode=%s
+10-25 16:11:29.150 20979 21503 I NearbyDiscovery: (REDACTED) ApFastPairScanner: nothing changed, eventType=%s
+10-25 16:11:29.150 20979 21503 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+10-25 16:11:29.151 20979 21503 I NearbyDiscovery: (REDACTED) PureOffloadFastPairScanner: eventType=%s, isInternalReq=%s, isScanning=%s, isScanningAllowed=%s
+10-25 16:11:29.152 20979 21503 I NearbyDiscovery: PureOffloadFastPairScanner: Skipping stop, already stopped scanning [CONTEXT service_id=265 ]
+10-25 16:11:29.152 20979 21503 I NearbyDiscovery: (REDACTED) ApFastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+10-25 16:11:29.153 20979 21503 I NearbyDiscovery: (REDACTED) ApFastPairScanner: eventType=%s, intReq=%s, scanning=%s, scanAllowed=%s, bleEnabled=%s, lockScanRate=%s, startScanningByLowPowerMode=%s
+10-25 16:11:29.153 20979 21503 I NearbyDiscovery: (REDACTED) ApFastPairScanner: nothing changed, eventType=%s
+10-25 16:11:29.153 20979 21503 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+10-25 16:11:29.154 20979 21503 I NearbyDiscovery: (REDACTED) PureOffloadFastPairScanner: eventType=%s, isInternalReq=%s, isScanning=%s, isScanningAllowed=%s
+10-25 16:11:29.163 20979 21503 I NearbyDiscovery: PureOffloadFastPairScanner: Skipping stop, already stopped scanning [CONTEXT service_id=265 ]
+10-25 16:11:29.164 20979 21503 I NearbyDiscovery: (REDACTED) ApFastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+10-25 16:11:29.165 20979 21503 I NearbyDiscovery: (REDACTED) ApFastPairScanner: eventType=%s, intReq=%s, scanning=%s, scanAllowed=%s, bleEnabled=%s, lockScanRate=%s, startScanningByLowPowerMode=%s
+10-25 16:11:29.165 20979 21503 I NearbyDiscovery: (REDACTED) ApFastPairScanner: nothing changed, eventType=%s
+10-25 16:11:29.197 20979 31924 I NearbyDiscovery: (REDACTED) [trigger-id=AprqEEC1A8BC, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:29.197 20979 31924 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:29.197 20979 31924 I NearbyDiscovery: (REDACTED) [trigger-id=AprqEEC1A8BC, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:29.336 20979 20979 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s, startId: %d
+10-25 16:11:29.352 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:11:29.352 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:11:29.361 20979 20979 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s, startId: %d
+10-25 16:11:29.374 20979 20979 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s, startId: %d
+10-25 16:11:30.859 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:11:30.860 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:11:30.868 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:31.698 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan7ECD49CE, feature-id=Inpa] FastPairHalfSheetManager: Dismiss the slice %s
+10-25 16:11:32.205 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqAAECF7C0, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:32.206 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:32.207 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:11:32.209 20979 31879 I FastPair: ServiceBindHelper: Unbind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:11:32.209 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqAAECF7C0, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:32.361 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:11:32.361 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:11:33.036 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:33.852 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:35.196 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:36.029 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:37.337 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan40CA0E5C] FastPairCache: device found with model id, %s, %s, %s
+10-25 16:11:37.350 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan40CA0E5C] FastPairCacheManager: Item exists in cache for %s, returning %s
+10-25 16:11:37.361 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryLogger: %s %s
+10-25 16:11:37.368 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan40CA0E5C] FastPairCache: First time advertise data with model id, %s, %s, %s
+10-25 16:11:37.369 20979 31879 I NearbyDiscovery: (REDACTED) InitialPairingDeviceChecker: Start checking device, %s, %s
+10-25 16:11:37.369 20979 31879 I NearbyDiscovery: (REDACTED) InitialPairingDeviceChecker: No matched cached device, %s, %s
+10-25 16:11:37.377 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:37.378 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan40CA0E5C, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:37.460 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:37.460 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanDF3D6818, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:37.883 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqBBCFE689, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:37.884 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:37.885 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:11:37.889 20979 31879 I FastPair: ServiceBindHelper: Bind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:11:37.889 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqBBCFE689, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:37.892 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:11:37.893 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:11:37.894 20979 20979 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s, startId: %d
+10-25 16:11:37.896 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:11:37.897 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:11:38.150 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:38.150 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan43F20B46, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:38.161 20979 21503 I NearbyDiscovery: (REDACTED) %s
+10-25 16:11:38.272 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:38.272 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan2D79D88C, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:38.654 20979 30065 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq89983711, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:38.656 20979 30065 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:38.656 20979 30065 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq89983711, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:39.635 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:39.635 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan84C658FA, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:39.673 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:40.139 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq57ECEC1A, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:40.140 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:40.141 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq57ECEC1A, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:41.632 20979 30065 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq530564DD, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:41.633 20979 30065 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:41.634 20979 30065 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq530564DD, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:41.809 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:41.810 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan951E8CB8, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:42.313 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq4EE186A3, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:42.314 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:42.314 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq4EE186A3, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:43.988 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:44.649 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:44.786 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryLogger: %s %s
+10-25 16:11:44.792 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan4371BCEE] FastPairCache: First time advertise data with bloom filter, %s, %s, %s
+10-25 16:11:44.792 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:44.809 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan40CA0E5C, feature-id=Inpa] FastPairHalfSheetManager: Dismiss the slice %s
+10-25 16:11:45.316 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqD189D994, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:45.317 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:45.318 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:11:45.320 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:11:45.321 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:11:45.322 20979 31879 I FastPair: ServiceBindHelper: Unbind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:11:45.322 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqD189D994, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:46.291 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:46.291 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanD3531DAB, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:46.797 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq89ED9C57, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:46.797 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:46.798 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:11:46.801 20979 31561 I FastPair: ServiceBindHelper: Bind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:11:46.802 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq89ED9C57, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:46.804 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:11:46.804 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:11:46.805 20979 20979 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s, startId: %d
+10-25 16:11:46.807 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:11:46.808 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:11:46.949 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:46.956 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:46.956 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan1B99749F, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:47.094 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:47.095 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanCC504C88, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:47.461 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqCFD12AE0, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:47.462 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:47.462 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqCFD12AE0, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:47.622 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:47.770 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:47.770 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan9E140A09, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:48.278 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=AprqC454F7BE, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:48.279 20979 32017 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:48.280 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=AprqC454F7BE, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:48.459 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:49.122 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:49.805 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:49.806 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanE80DFD10, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:50.312 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq259B063C, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:50.313 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:50.313 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq259B063C, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:50.458 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:50.621 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:50.621 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan48592A93, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:51.126 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq25218567, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:51.127 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:51.127 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq25218567, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:51.995 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:51.996 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan599C6EAA, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:52.503 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq61CA9BE2, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:52.505 20979 32017 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:52.505 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq61CA9BE2, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:52.669 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:52.670 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan6E130BFE, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:52.774 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:53.174 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq3290DEA9, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:53.175 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:53.175 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq3290DEA9, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:53.480 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:53.480 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanAAEFB153, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:53.985 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq92CB6C15, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:53.986 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:53.987 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq92CB6C15, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:54.163 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:54.163 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan91E04422, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:54.232 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:54.287 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:11:54.287 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan1A05CDB0, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:11:54.670 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq39B59EE3, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:54.672 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:54.672 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq39B59EE3, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:54.899 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:55.739 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:57.211 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:11:57.288 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanD3531DAB, feature-id=Inpa] FastPairHalfSheetManager: Dismiss the slice %s
+10-25 16:11:57.792 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=AprqC287812A, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:11:57.793 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:11:57.793 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:11:57.795 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:11:57.796 20979 31561 I FastPair: ServiceBindHelper: Unbind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:11:57.796 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:11:57.796 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=AprqC287812A, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:11:59.375 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:00.719 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:01.380 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:02.189 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:06.636 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:07.299 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:07.967 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:08.122 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:08.968 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:09.633 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:10.297 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:10.963 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:13.122 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:13.941 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:14.601 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:16.090 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:16.748 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:16.899 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:18.915 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:19.750 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:21.250 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:21.911 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:22.731 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:25.574 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:25.575 20979 31879 I NearbyDiscovery: (REDACTED) loadFastPairModule: checkFeaturesAreAvailable:%d
+10-25 16:12:25.575 20979 31879 I NearbyDiscovery: loadFastPairModule: FastPair module is downloaded. [CONTEXT service_id=265 ]
+10-25 16:12:26.396 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:28.531 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:30.011 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:30.663 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:31.493 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:34.355 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:35.873 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:36.523 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:36.599 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan8ABDEF40] FastPairCache: device found with model id, %s, %s, %s
+10-25 16:12:36.608 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan8ABDEF40] FastPairCacheManager: Item exists in cache for %s, returning %s
+10-25 16:12:36.620 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryLogger: %s %s
+10-25 16:12:36.626 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan8ABDEF40] FastPairCache: First time advertise data with model id, %s, %s, %s
+10-25 16:12:36.627 20979 31561 I NearbyDiscovery: (REDACTED) InitialPairingDeviceChecker: Start checking device, %s, %s
+10-25 16:12:36.627 20979 31561 I NearbyDiscovery: (REDACTED) InitialPairingDeviceChecker: No matched cached device, %s, %s
+10-25 16:12:36.634 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:36.634 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan8ABDEF40, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:37.140 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq578DD098, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:37.141 20979 32017 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:37.141 20979 32017 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:12:37.145 20979 32017 I FastPair: ServiceBindHelper: Bind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:12:37.145 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq578DD098, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:37.147 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:12:37.148 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:12:37.149 20979 20979 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s, startId: %d
+10-25 16:12:37.150 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:12:37.150 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:12:38.012 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:38.677 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:38.772 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:38.772 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan21EE93FC, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:38.786 20979 21503 I NearbyDiscovery: (REDACTED) %s
+10-25 16:12:39.278 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq2D30D1C6, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:39.280 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:39.280 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq2D30D1C6, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:39.504 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:39.505 20979 21503 I NearbyDiscovery: (REDACTED) %s
+10-25 16:12:39.506 20979 21503 I NearbyDiscovery: (REDACTED) %s
+10-25 16:12:39.508 20979 21503 I NearbyDiscovery: (REDACTED) %s
+10-25 16:12:40.149 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:40.150 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanF0ED36B7, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:40.172 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:40.274 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:40.275 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanE360085B, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:40.655 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq6E73751B, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:40.656 20979 32017 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:40.656 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq6E73751B, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:40.855 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:40.958 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:40.959 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanACA947D4, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:41.464 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq99ACE525, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:41.465 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:41.466 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq99ACE525, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:41.646 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:41.647 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanD65F6542, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:42.152 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=AprqC20052E7, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:42.153 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:42.153 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=AprqC20052E7, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:42.336 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:42.336 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan23547606, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:42.841 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq56EB7CDD, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:42.841 20979 32017 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:42.842 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq56EB7CDD, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:43.159 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:43.953 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:43.953 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan2506B5FE, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:44.333 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq2DF64DAC, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:44.334 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:44.335 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq2DF64DAC, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:44.634 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:44.634 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan2E6C874F, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:45.140 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq08508F76, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:45.141 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:45.142 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq08508F76, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:45.311 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:45.965 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:46.815 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:46.815 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan69BECC70, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:47.318 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq3BD99B37, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:47.319 20979 32017 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:47.319 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq3BD99B37, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:47.498 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:47.499 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanC82A53E7, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:48.004 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq7DC53151, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:48.005 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:48.006 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq7DC53151, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:48.329 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:48.329 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanF571DA5A, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:48.837 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=AprqBF1DAFB6, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:48.838 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:48.839 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=AprqBF1DAFB6, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:48.983 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:49.642 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:49.792 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:50.465 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:51.186 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:51.186 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan39818B0F, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:51.693 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq04660E21, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:51.694 20979 32017 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:51.694 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq04660E21, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:51.866 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:51.867 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanE2D53679, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:52.372 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq26E7B5B1, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:52.373 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:52.374 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq26E7B5B1, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:52.686 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:52.686 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan5DBE81AF, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:53.189 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq6021D7D8, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:53.190 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:53.191 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq6021D7D8, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:53.215 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:53.216 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanCB92E48B, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:53.721 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq17B8FD84, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:53.722 20979 32017 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:53.723 20979 32017 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq17B8FD84, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:54.745 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:54.856 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:54.856 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan05F444B0, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:55.362 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqC3F204EE, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:55.364 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:55.364 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqC3F204EE, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:55.573 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:56.228 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:56.228 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan0F417869, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:56.240 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:56.353 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:56.354 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan3DC23DF2, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:56.379 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:56.733 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq709526BA, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:56.735 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:56.735 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq709526BA, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:57.712 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:57.713 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan8C687A68, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:57.841 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:57.841 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan91382C5B, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:12:58.219 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq92D18CFB, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:12:58.220 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:12:58.220 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq92D18CFB, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:12:58.373 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:59.879 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:12:59.886 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:12:59.886 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan7E70F62B, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:13:00.395 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq0037D048, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:00.396 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:00.396 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq0037D048, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:02.209 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:02.891 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan8ABDEF40, feature-id=Inpa] FastPairHalfSheetManager: Dismiss the slice %s
+10-25 16:13:03.397 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=AprqB1EEFA7E, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:03.397 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:03.398 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:13:03.400 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:13:03.401 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:13:03.401 20979 32280 I FastPair: ServiceBindHelper: Unbind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:13:03.402 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=AprqB1EEFA7E, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:05.061 20979 21503 I NearbyDiscovery: (REDACTED) HalfSheetBlocklist: blocking DO_NOT_SHOW_AGAIN %d %d %d
+10-25 16:13:05.062 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan89F87DAC, feature-id=Inpa] FastPairHalfSheetManager: id %s (%s) is blocked
+10-25 16:13:05.177 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:05.567 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq687672EF, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:05.568 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:05.569 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:13:05.573 20979 31561 I FastPair: ServiceBindHelper: Bind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:13:05.573 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq687672EF, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:05.576 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:13:05.576 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:13:05.578 20979 20979 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s, startId: %d
+10-25 16:13:05.580 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:13:05.580 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:13:05.851 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:06.512 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:07.343 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:08.066 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan89F87DAC, feature-id=Inpa] FastPairHalfSheetManager: Dismiss the slice %s
+10-25 16:13:08.575 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq95F6BCE9, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:08.576 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:08.576 20979 31561 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:13:08.578 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:13:08.579 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:13:08.579 20979 31561 I FastPair: ServiceBindHelper: Unbind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:13:08.579 20979 31561 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq95F6BCE9, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:08.670 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:11.613 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:12.454 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:13.779 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:14.599 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:15.259 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:16.611 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:21.775 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:21.929 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:22.446 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:23.280 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:26.942 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:26.942 20979 31561 I NearbyDiscovery: (REDACTED) loadFastPairModule: checkFeaturesAreAvailable:%d
+10-25 16:13:26.943 20979 31561 I NearbyDiscovery: loadFastPairModule: FastPair module is downloaded. [CONTEXT service_id=265 ]
+10-25 16:13:27.596 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:29.088 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:31.236 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:32.064 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:35.041 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:35.858 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:36.360 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:36.514 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:37.185 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:37.874 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:38.543 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:39.385 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:40.043 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:40.720 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:40.872 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:42.146 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanE500BC2F] FastPairCache: device found with model id, %s, %s, %s
+10-25 16:13:42.165 20979 31561 I NearbyDiscovery: (REDACTED) Starting to fetch animation for %s
+10-25 16:13:42.171 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=ScanE500BC2F] FastPairCacheManager: Query device information, attempt %s/%s
+10-25 16:13:42.173 20979 32280 I NearbyDiscovery: (REDACTED) DiscoveryLogger: %s %s
+10-25 16:13:42.179 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=ScanE500BC2F] FastPairCacheManager: scanner found model id is %s, request the information from server.
+10-25 16:13:42.262 20979 21503 I NearbyDiscovery: (REDACTED) %s
+10-25 16:13:42.628 20979 31561 I NearbyDiscovery: (REDACTED) DiscoveryLogger: %s %s
+10-25 16:13:42.636 20979 31561 I NearbyDiscovery: AnimationFetcher: saving indicator file [CONTEXT service_id=265 ]
+10-25 16:13:42.835 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=ScanE500BC2F] FastPairCacheManager: Got response from server %s
+10-25 16:13:42.838 20979 32280 I NearbyDiscovery: (REDACTED) DiscoveryLogger: %s %s
+10-25 16:13:42.856 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryLogger: %s %s
+10-25 16:13:42.862 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanE500BC2F] FastPairCache: First time advertise data with model id, %s, %s, %s
+10-25 16:13:42.863 20979 32477 I NearbyDiscovery: (REDACTED) InitialPairingDeviceChecker: Start checking device, %s, %s
+10-25 16:13:42.863 20979 32477 I NearbyDiscovery: (REDACTED) InitialPairingDeviceChecker: No matched cached device, %s, %s
+10-25 16:13:43.063 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:44.390 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:47.380 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:48.191 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:48.869 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:49.373 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq9567C3A6, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:49.374 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:49.374 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:13:49.377 20979 31879 I FastPair: ServiceBindHelper: Bind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:13:49.378 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq9567C3A6, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:49.381 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:13:49.382 20979 20979 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s, startId: %d
+10-25 16:13:49.382 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:13:49.383 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:13:49.384 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:13:50.050 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq0587DCD3, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:50.051 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:50.051 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq0587DCD3, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:50.871 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqDAFB961B, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:50.872 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:50.872 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqDAFB961B, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:51.045 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:51.550 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=AprqED574363, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:51.551 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:51.551 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=AprqED574363, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:51.866 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:52.238 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqAABE5D3C, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:52.239 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:52.240 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqAABE5D3C, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:52.362 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:53.619 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq0F38D55D, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:53.620 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:53.621 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq0F38D55D, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:53.851 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:54.421 20979 32477 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq49DAAF25, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:54.422 20979 32477 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:54.423 20979 32477 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq49DAAF25, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:54.673 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:55.217 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqAAD151BE, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:55.219 20979 31879 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:55.219 20979 31879 I NearbyDiscovery: (REDACTED) [trigger-id=AprqAAD151BE, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:55.341 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:55.899 20979 32477 I NearbyDiscovery: (REDACTED) [trigger-id=AprqBCA7C215, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:55.900 20979 32477 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:55.900 20979 32477 I NearbyDiscovery: (REDACTED) [trigger-id=AprqBCA7C215, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:56.167 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:56.821 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:57.643 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:58.065 20979 32570 I NearbyDiscovery: (REDACTED) [trigger-id=AprqC02C37B2, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:58.066 20979 32570 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:58.066 20979 32570 I NearbyDiscovery: (REDACTED) [trigger-id=AprqC02C37B2, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:58.716 20979 32570 I NearbyDiscovery: (REDACTED) DiscoveryLogger: %s %s
+10-25 16:13:58.743 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=AprqC3A2D1DD, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:13:58.743 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:13:58.744 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=AprqC3A2D1DD, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:13:58.963 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:13:59.805 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:14:01.145 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:14:01.369 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanAE3EDC42, feature-id=Inpa] FastPairHalfSheetManager: Dismiss the slice %s
+10-25 16:14:01.877 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=AprqAC5D9BD1, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:14:01.878 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:14:01.878 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:14:01.882 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:14:01.882 20979 32280 I FastPair: ServiceBindHelper: Unbind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:14:01.882 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:14:01.883 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=AprqAC5D9BD1, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:14:02.408 20979 32570 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq726C2C97, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:14:02.409 20979 32570 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:14:02.410 20979 32570 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:14:02.413 20979 32570 I FastPair: ServiceBindHelper: Bind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:14:02.414 20979 32570 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq726C2C97, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:14:02.417 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:14:02.417 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:14:02.423 20979 20979 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s, startId: %d
+10-25 16:14:02.426 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:14:02.427 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:14:02.804 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:14:03.220 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=AprqD98594F5, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:14:03.221 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:14:03.221 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=AprqD98594F5, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:14:03.892 20979 32570 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq299DB785, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:14:03.894 20979 32570 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:14:03.894 20979 32570 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq299DB785, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:14:04.115 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:14:05.375 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq8F86C555, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:14:05.376 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:14:05.376 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq8F86C555, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:14:05.611 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:14:06.065 20979 32570 I NearbyDiscovery: (REDACTED) [trigger-id=AprqB5432E1B, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:14:06.066 20979 32570 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:14:06.066 20979 32570 I NearbyDiscovery: (REDACTED) [trigger-id=AprqB5432E1B, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:14:06.473 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:14:06.976 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:14:07.010 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq7B9C58C6, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:14:07.012 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:14:07.012 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq7B9C58C6, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:14:07.559 20979 32568 I NearbyDiscovery: (REDACTED) [trigger-id=AprqFBD4A676, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:14:07.560 20979 32568 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:14:07.560 20979 32568 I NearbyDiscovery: (REDACTED) [trigger-id=AprqFBD4A676, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:14:07.947 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:14:08.610 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:14:09.273 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:14:09.946 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:14:10.055 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=Scan003B3CA3, feature-id=Inpa] FastPairHalfSheetManager: Dismiss the slice %s
+10-25 16:14:10.565 20979 32568 I NearbyDiscovery: (REDACTED) [trigger-id=AprqED312727, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:14:10.566 20979 32568 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:14:10.566 20979 32568 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:14:10.569 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:14:10.569 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:14:10.570 20979 32568 I FastPair: ServiceBindHelper: Unbind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:14:10.571 20979 32568 I NearbyDiscovery: (REDACTED) [trigger-id=AprqED312727, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:14:11.244 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=AprqA70EFDAE, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:14:11.246 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:14:11.246 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:14:11.250 20979 32280 I FastPair: ServiceBindHelper: Bind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:14:11.250 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=AprqA70EFDAE, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:14:11.253 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:14:11.254 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:14:11.256 20979 20979 I NearbyDiscovery: (REDACTED) DiscoveryService onStartCommand action: %s, startId: %d
+10-25 16:14:11.259 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:14:11.259 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:14:11.907 20979 32568 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq47A3527D, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:14:11.908 20979 32568 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:14:11.909 20979 32568 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq47A3527D, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:14:13.625 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:14:14.455 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:14:14.528 20979 21503 I NearbyDiscovery: (REDACTED) [trigger-id=ScanDE64592D, feature-id=Inpa] FastPairHalfSheetManager: Dismiss the slice %s
+10-25 16:14:15.033 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq7C5F3BB5, feature-id=Slce] FastPairSlice: Querying slice uri %s
+10-25 16:14:15.034 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.onSlicePinned, slice already pinned, uri = %s
+10-25 16:14:15.034 20979 32280 I FastPair: (REDACTED) ServiceBindHelper.setBindServiceForDiscoveryItem, bindServiceForDiscoveryItem = %b
+10-25 16:14:15.036 20979 21503 I NearbyDiscovery: (REDACTED) DiscoveryController, showNotification, itemSize=%s
+10-25 16:14:15.036 20979 21503 I NearbyDiscovery: (REDACTED) Show notifications: %d total, no changes since last shown, no-op.
+10-25 16:14:15.036 20979 32280 I FastPair: ServiceBindHelper: Unbind DiscoveryService for pair [CONTEXT service_id=49 ]
+10-25 16:14:15.036 20979 32280 I NearbyDiscovery: (REDACTED) [trigger-id=Aprq7C5F3BB5, feature-id=Slce] FastPairSlice: Build slice uri %s, result=%s
+10-25 16:14:15.949 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+10-25 16:14:17.261 20979 21503 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
